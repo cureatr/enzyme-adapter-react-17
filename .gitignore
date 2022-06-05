@@ -10,7 +10,6 @@
 yarn-error.log
 
 # Project-generated directories
-build
 coverage
 node_modules
 

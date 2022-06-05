@@ -11,7 +11,6 @@
     "build": "babel --source-maps=both src -d build",
     "clean": "rimraf build",
     "lint": "eslint src/ --ext .jsx,.js",
-    "postinstall": "husky install",
     "prepack": "yarn clean && yarn build",
     "test": "yarn lint"
   },
